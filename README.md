@@ -31,3 +31,10 @@ yarn start
 ---
 
 Also, I like to take notes. Here's my debug docs: [debug.pdf](./docs/debug.pdf)
+
+---
+
+If you're still having issues:
+
+1. Try resetting Simulator (I'm using iOS for my tests, haven't tested Android at all) via Hardware -> Erase All Content and Settings
+2. Try opening Simulator before loading the `@storybook/react-native-server`
