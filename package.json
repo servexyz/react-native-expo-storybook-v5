@@ -17,7 +17,7 @@
     "@storybook/addon-actions": "^5.0.11",
     "@storybook/addon-links": "^5.0.11",
     "@storybook/addons": "^5.0.11",
-    "@storybook/react-native": "^4.1.18",
+    "@storybook/react-native": "^5.0.11",
     "@storybook/react-native-server": "^5.1.0-alpha.7",
     "babel-core": "^6.26.3",
     "babel-preset-expo": "^5.0.0",
