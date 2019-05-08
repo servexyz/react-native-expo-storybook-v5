@@ -12,9 +12,10 @@ The 100% solution will be when you can render all of this via React Native Web i
 
 ## Getting Started
 
-```
-yarn install
-yarn start
+```bash
+$ yarn install
+$ > select @storybook/react-native version: 5.1.0-alpha.40"
+$ yarn start
 ```
 
 ## What you should see
