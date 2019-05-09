@@ -42,7 +42,9 @@ Also, I like to take notes. Here's the debug docs from when I was having issues 
 ## Still having issues?
 
 1. Try resetting Simulator (I'm using iOS for my tests, haven't tested Android at all) via `Hardware` -> `Erase All Content and Settings`
-2. Try opening your simulator and then refreshing Storybook. You may notice that Stories spin indefinitely without loading if your simulator isn't loaded
+2. Try opening your simulator and then refreshing Storybook. You may notice that Stories spin indefinitely without loading if your simulator isn't loaded, like so:
+
+![pending stories](docs/storybook_stories_pending.png)
 
 ---
 
