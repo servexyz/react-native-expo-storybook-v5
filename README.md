@@ -20,14 +20,18 @@ $ yarn start
 
 ## What you should see
 
-**Install**
-![install](./docs/0_install.png)
+**yarn install**
+> 5.1.0-alpha.40 is the latest version at the time of writing
+![install](docs/0_install.png)
 
-**Expo**
-![expo](./docs/1_expo.png)
+**yarn start**
+![start](docs/1_run.png)
 
-**Storybook**
-![storybook](./docs/2_storybook.png)
+**run iOS Simulator**
+![expo simulator](docs/2_expo.png)
+
+**open http://localhost:7007 after simulator is open**
+![storybook](docs/3_storybook.png)
 
 ---
 
