@@ -14,28 +14,28 @@ $ yarn start
 
 **yarn install**
 > 5.1.0-alpha.40 is the latest version at the time of writing
-![install](docs/0_install.png)
+![install](0_install.png)
 
 **yarn start**
-![start](docs/1_run.png)
+![start](1_run.png)
 
 **run iOS Simulator**
-![expo simulator](docs/2_expo.png)
+![expo simulator](2_expo.png)
 
 **open http://localhost:7007 after simulator is open**
 > Visit thread to see more info about switching from 5.2 to 5.1:
 > https://github.com/storybooks/storybook/issues/6445#issuecomment-490481700
 
-![updated storybook view](docs/510a40_view.png)
+![updated storybook view](510a40_view.png)
 
 ---
 
 Also, I like to take notes. Here's the debug docs from when I was having issues before:
 
-| What                                                                    | Description                                                                                                                                                                                                                 |
-|-------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [debug.pdf](./docs/debug.pdf)                                           | First attempt. Implemented 5.2.0-alpha.3 succesfully                                                                                                                                                                        |
-| [Storybook_version_downgrade.pdf](docs/Storybook_version_downgrade.pdf) | Second attempt. Found out that v5.2.0 was condemned. Migrated to v5.1.0-alpha.40. The solution to the issues found in this doc can be read here: https://github.com/storybooks/storybook/issues/6445#issuecomment-490660408 |
+| What                                                               | Description                                                                                                                                                                                                                 |
+|--------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [debug.pdf](debug.pdf)                                             | First attempt. Implemented 5.2.0-alpha.3 succesfully                                                                                                                                                                        |
+| [Storybook_version_downgrade.pdf](Storybook_version_downgrade.pdf) | Second attempt. Found out that v5.2.0 was condemned. Migrated to v5.1.0-alpha.40. The solution to the issues found in this doc can be read here: https://github.com/storybooks/storybook/issues/6445#issuecomment-490660408 |
 
 ---
 
@@ -44,7 +44,7 @@ Also, I like to take notes. Here's the debug docs from when I was having issues 
 1. Try resetting Simulator (I'm using iOS for my tests, haven't tested Android at all) via `Hardware` -> `Erase All Content and Settings`
 2. Try opening your simulator and then refreshing Storybook. You may notice that Stories spin indefinitely without loading if your simulator isn't loaded, like so:
 
-![pending stories](docs/storybook_stories_pending.png)
+![pending stories](storybook_stories_pending.png)
 
 ---
 

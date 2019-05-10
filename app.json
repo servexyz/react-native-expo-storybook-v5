@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "two",
-    "slug": "two",
-    "appKey": "two",
+    "name": "mobile",
+    "slug": "mobile",
+    "appKey": "mobile",
     "privacy": "public",
     "sdkVersion": "32.0.0",
     "platforms": ["ios", "android"],
