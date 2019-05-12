@@ -9,9 +9,12 @@
     "storybook": "start-storybook -p 7007"
   },
   "dependencies": {
+    "@emotion/native": "^10.0.11",
     "expo": "^32.0.0",
+    "native-base": "^2.12.1",
     "react": "16.5.0",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz"
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-router": "^5.0.0"
   },
   "devDependencies": {
     "@emotion/core": "^10.0.10",
