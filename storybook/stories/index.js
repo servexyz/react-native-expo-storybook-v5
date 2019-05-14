@@ -11,7 +11,7 @@ import Welcome from "./Welcome";
 import Emotion from "../../components/Emotion";
 
 import StoryRouter from "storybook-react-router";
-// import { MemoryRouter as Router } from "react-router";
+import { Route } from "react-router";
 
 storiesOf("Welcome", module).add("to Storybook", () => (
   <Welcome showApp={linkTo("Button")} />
@@ -38,4 +38,4 @@ storiesOf("Button", module)
 
 storiesOf("Emotion", module)
   .addDecorator(StoryRouter())
-  .add("with routing", () => <Emotion />);
+  .add("with routing 1", () => <Emotion />);
