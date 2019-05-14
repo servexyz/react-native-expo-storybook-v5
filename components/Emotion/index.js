@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import styled, { css } from "@emotion/native";
 import { Button, Text } from "native-base";
-import { withRouter } from "react-router";
 
 const Container = styled.View`
   display: flex;
@@ -41,7 +40,6 @@ class Emotions extends Component {
             width: 150
           }}
         />
-        {/* TODO: Consider abstracting this.props.history.push (ie. inject function here instead) */}
         <Button primary onPress={() => this.props.history.push("/")}>
           <Text>Go to first page</Text>
         </Button>
@@ -49,5 +47,3 @@ class Emotions extends Component {
     );
   }
 }
-
-export default withRouter(Emotions);
