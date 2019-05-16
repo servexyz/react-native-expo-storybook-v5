@@ -1,1 +1,1 @@
-export default from "./Emotion";
+export { Emotion } from "./Emotion";
