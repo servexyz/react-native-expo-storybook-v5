@@ -19,8 +19,7 @@ const Image = styled.Image`
 
 const emotionLogo =
   "https://cdn.rawgit.com/emotion-js/emotion/master/emotion.png";
-
-export default class Emotions extends Component {
+class Emotions extends Component {
   constructor(props) {
     super(props);
   }
