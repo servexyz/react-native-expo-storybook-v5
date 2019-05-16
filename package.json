@@ -7,13 +7,16 @@
     "url": "https://github.com/capswan/ui"
   },
   "scripts": {
+    "android": "expo start --android",
     "build": "yarn run build:components",
     "build:components": "webpack --config ./webpack.components.js",
-    "start": "npm-run-all --parallel expo storybook",
-    "expo": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
     "eject": "expo eject",
+    "expo": "expo start",
+    "ios": "expo start --ios",
+    "publish": "npm-run-all --serial publish:prepare publish:execute",
+    "publish:prepare": "npm config set registry http://localhost:4873",
+		"publish:execute": "npm publish",
+    "start": "npm-run-all --parallel expo storybook",
     "storybook": "start-storybook -p 7007"
   },
   "dependencies": {
