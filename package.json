@@ -1,4 +1,5 @@
 {
+  "name": "capswan-ui-mobile",
   "main": "build/components.js",
   "description": "Capswan Mobile UI library",
   "version": "0.1.0",
@@ -13,9 +14,11 @@
     "eject": "expo eject",
     "expo": "expo start",
     "ios": "expo start --ios",
-    "publish": "npm-run-all --serial publish:prepare publish:execute",
-    "publish:prepare": "npm config set registry http://localhost:4873",
-		"publish:execute": "npm publish",
+    "publish": "npm-run-all --serial publish:prepare:partial publish:execute",
+    "publish:prepare:partial": "npm config set registry http://localhost:4873",
+    "publish:prepare:full": "npm-run-all --serial publish:registry:start publish:prepare:partial",
+    "publish:execute": "npm publish",
+    "publish:registry:start": "docker run -d --name verdaccio --restart always -p 4873:4873 -v /Users/alechp/Code/docker/verdaccio/data:/data verdaccio/verdaccio",
     "start": "npm-run-all --parallel expo storybook",
     "storybook": "start-storybook -p 7007"
   },
@@ -50,5 +53,5 @@
     "webpack-cli": "^3.3.2",
     "webpack-node-externals": "^1.7.2"
   },
-  "private": true
+  "private": false
 }
