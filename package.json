@@ -1,5 +1,11 @@
 {
-  "main": "node_modules/expo/AppEntry.js",
+  "main": "build/components.js",
+  "description": "Capswan Mobile UI library",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/capswan/ui"
+  },
   "scripts": {
     "build": "yarn run build:components",
     "build:components": "webpack --config ./webpack.components.js",
