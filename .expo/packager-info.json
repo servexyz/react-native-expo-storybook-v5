@@ -3,8 +3,8 @@
   "expoServerPort": null,
   "packagerPort": null,
   "packagerPid": null,
-  "expoServerNgrokUrl": null,
-  "packagerNgrokUrl": null,
-  "ngrokPid": null,
+  "expoServerNgrokUrl": "https://xn-bte.anonymous.react-native-expo-storybook-v5.exp.direct",
+  "packagerNgrokUrl": "https://packager.xn-bte.anonymous.react-native-expo-storybook-v5.exp.direct",
+  "ngrokPid": 42168,
   "webpackServerPort": null
 }
