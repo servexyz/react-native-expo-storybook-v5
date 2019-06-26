@@ -8,9 +8,6 @@ import { linkTo } from "@storybook/addon-links";
 import Button from "./Button";
 import CenterView from "./CenterView";
 import Welcome from "./Welcome";
-import Emotion from "../../components/Emotion";
-
-import StoryRouter from "storybook-react-router";
 
 storiesOf("Welcome", module).add("to Storybook", () => (
   <Welcome showApp={linkTo("Button")} />
@@ -28,7 +25,3 @@ storiesOf("Button", module)
       <Text>😀 😎 👍 💯</Text>
     </Button>
   ));
-
-storiesOf("Emotion", module)
-  .addDecorator(StoryRouter())
-  .add("with routing 1", () => <Emotion />);
