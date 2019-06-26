@@ -878,7 +878,7 @@
   version "2.0.10"
   resolved "https://registry.yarnpkg.com/@react-native-community/netinfo/-/netinfo-2.0.10.tgz#d28a446352e75754b78509557988359133cdbcca"
 
-"@storybook/addon-actions@^5.2.0-alpha.23":
+"@storybook/addon-actions@^5.2.0-alpha.30":
   version "5.2.0-alpha.30"
   resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-5.2.0-alpha.30.tgz#0ea15725e81338335c87f509ea786b7ab08e9779"
   dependencies:
@@ -897,7 +897,7 @@
     react-inspector "^3.0.2"
     uuid "^3.3.2"
 
-"@storybook/addon-links@^5.2.0-alpha.23":
+"@storybook/addon-links@^5.2.0-alpha.30":
   version "5.2.0-alpha.30"
   resolved "https://registry.yarnpkg.com/@storybook/addon-links/-/addon-links-5.2.0-alpha.30.tgz#3f97418680ac6e87faf4e3e65d8252b7af3d58d8"
   dependencies:
@@ -910,7 +910,7 @@
     prop-types "^15.7.2"
     qs "^6.6.0"
 
-"@storybook/addon-storysource@^5.2.0-alpha.23":
+"@storybook/addon-storysource@^5.2.0-alpha.30":
   version "5.2.0-alpha.30"
   resolved "https://registry.yarnpkg.com/@storybook/addon-storysource/-/addon-storysource-5.2.0-alpha.30.tgz#119dae1b7dd35fdc6ae7b59183cd68acf0a3d564"
   dependencies:
@@ -926,7 +926,7 @@
     react-syntax-highlighter "^8.0.1"
     regenerator-runtime "^0.12.1"
 
-"@storybook/addons@5.2.0-alpha.30", "@storybook/addons@^5.2.0-alpha.23":
+"@storybook/addons@5.2.0-alpha.30", "@storybook/addons@^5.2.0-alpha.30":
   version "5.2.0-alpha.30"
   resolved "https://registry.yarnpkg.com/@storybook/addons/-/addons-5.2.0-alpha.30.tgz#36746a6092532693b1b6d5a18ea4e9acd6f97d53"
   dependencies:
@@ -1118,7 +1118,7 @@
     pretty-hrtime "^1.0.3"
     regenerator-runtime "^0.12.1"
 
-"@storybook/react-native-server@^5.2.0-alpha.23":
+"@storybook/react-native-server@^5.2.0-alpha.30":
   version "5.2.0-alpha.30"
   resolved "https://registry.yarnpkg.com/@storybook/react-native-server/-/react-native-server-5.2.0-alpha.30.tgz#7b4be2fa24a00f49388d9b977fb6a4c917f22fe3"
   dependencies:
@@ -1137,7 +1137,7 @@
     webpack "^4.33.0"
     ws "^6.1.0"
 
-"@storybook/react-native@^5.2.0-alpha.23":
+"@storybook/react-native@^5.2.0-alpha.30":
   version "5.2.0-alpha.30"
   resolved "https://registry.yarnpkg.com/@storybook/react-native/-/react-native-5.2.0-alpha.30.tgz#d24031cdec220f452669c5802b86157f04a5b351"
   dependencies:
