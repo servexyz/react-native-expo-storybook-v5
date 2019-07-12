@@ -6,15 +6,18 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "eject": "expo eject",
-    "storybook": "start-storybook -p 7007"
+    "storybook": "start-storybook -p 7007",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "@emotion/native": "^10.0.11",
     "expo": "^32.0.0",
     "native-base": "^2.12.1",
     "react": "16.5.0",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
-    "react-router": "^5.0.0"
+    "react-native": "0.60.0",
+    "react-router": "^5.0.0",
+    "snyk": "^1.193.1"
   },
   "devDependencies": {
     "@emotion/core": "^10.0.10",
@@ -34,5 +37,6 @@
     "react-dom": "16.5.0",
     "storybook-react-router": "^1.0.5"
   },
-  "private": true
+  "private": true,
+  "snyk": true
 }
