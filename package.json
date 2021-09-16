@@ -12,8 +12,8 @@
   },
   "dependencies": {
     "@emotion/native": "^10.0.11",
-    "expo": "^32.0.0",
-    "native-base": "^2.12.1",
+    "expo": "^39.0.1",
+    "native-base": "^2.13.6",
     "react": "16.5.0",
     "react-native": "0.60.0",
     "react-router": "^5.0.0",
