@@ -16,7 +16,7 @@
     "native-base": "^2.12.1",
     "react": "16.5.0",
     "react-native": "0.60.0",
-    "react-router": "^5.0.0",
+    "react-router": "^5.0.1",
     "snyk": "^1.193.1"
   },
   "devDependencies": {
